@@ -18,6 +18,8 @@
 		05997CE013EAEB4E0054C112 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05997CDF13EAEB4E0054C112 /* SecondViewController.m */; };
 		05997CE313EAEB4E0054C112 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05997CE113EAEB4E0054C112 /* FirstView.xib */; };
 		05997CE613EAEB4E0054C112 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05997CE413EAEB4E0054C112 /* SecondView.xib */; };
+		05997D0113EB005F0054C112 /* TabBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05997D0013EB005E0054C112 /* TabBarItemView.m */; };
+		05997D0313EB07850054C112 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 05997D0213EB07850054C112 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +27,22 @@
 		05997CC613EAEB4E0054C112 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05997CC813EAEB4E0054C112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05997CCA13EAEB4E0054C112 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		05997CCE13EAEB4E0054C112 /* FreeDesignedTabBar2-Info.plist */ = {isa = PBXFileReference; path = "FreeDesignedTabBar2-Info.plist"; sourceTree = "<group>"; };
+		05997CCE13EAEB4E0054C112 /* FreeDesignedTabBar2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeDesignedTabBar2-Info.plist"; sourceTree = "<group>"; };
 		05997CD013EAEB4E0054C112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		05997CD213EAEB4E0054C112 /* FreeDesignedTabBar2-Prefix.pch */ = {isa = PBXFileReference; path = "FreeDesignedTabBar2-Prefix.pch"; sourceTree = "<group>"; };
+		05997CD213EAEB4E0054C112 /* FreeDesignedTabBar2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FreeDesignedTabBar2-Prefix.pch"; sourceTree = "<group>"; };
 		05997CD313EAEB4E0054C112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05997CD513EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.h */ = {isa = PBXFileReference; path = FreeDesignedTabBar2AppDelegate.h; sourceTree = "<group>"; };
+		05997CD513EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreeDesignedTabBar2AppDelegate.h; sourceTree = "<group>"; };
 		05997CD613EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeDesignedTabBar2AppDelegate.m; sourceTree = "<group>"; };
 		05997CD913EAEB4E0054C112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		05997CDB13EAEB4E0054C112 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		05997CDB13EAEB4E0054C112 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		05997CDC13EAEB4E0054C112 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		05997CDE13EAEB4E0054C112 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		05997CDE13EAEB4E0054C112 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		05997CDF13EAEB4E0054C112 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		05997CE213EAEB4E0054C112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		05997CE513EAEB4E0054C112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		05997CFF13EB005E0054C112 /* TabBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItemView.h; sourceTree = "<group>"; };
+		05997D0013EB005E0054C112 /* TabBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItemView.m; sourceTree = "<group>"; };
+		05997D0213EB07850054C112 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 		05997CB713EAEB4D0054C112 = {
 			isa = PBXGroup;
 			children = (
+				05997D0213EB07850054C112 /* README.md */,
 				05997CCC13EAEB4E0054C112 /* FreeDesignedTabBar2 */,
 				05997CC513EAEB4E0054C112 /* Frameworks */,
 				05997CC313EAEB4E0054C112 /* Products */,
@@ -94,6 +100,8 @@
 				05997CE113EAEB4E0054C112 /* FirstView.xib */,
 				05997CE413EAEB4E0054C112 /* SecondView.xib */,
 				05997CCD13EAEB4E0054C112 /* Supporting Files */,
+				05997CFF13EB005E0054C112 /* TabBarItemView.h */,
+				05997D0013EB005E0054C112 /* TabBarItemView.m */,
 			);
 			path = FreeDesignedTabBar2;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				05997CDA13EAEB4E0054C112 /* MainWindow.xib in Resources */,
 				05997CE313EAEB4E0054C112 /* FirstView.xib in Resources */,
 				05997CE613EAEB4E0054C112 /* SecondView.xib in Resources */,
+				05997D0313EB07850054C112 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				05997CD713EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.m in Sources */,
 				05997CDD13EAEB4E0054C112 /* FirstViewController.m in Sources */,
 				05997CE013EAEB4E0054C112 /* SecondViewController.m in Sources */,
+				05997D0113EB005F0054C112 /* TabBarItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

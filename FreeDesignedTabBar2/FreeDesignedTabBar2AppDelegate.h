@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface FreeDesignedTabBar2AppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
-
+    NSArray *_tabViewItems;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

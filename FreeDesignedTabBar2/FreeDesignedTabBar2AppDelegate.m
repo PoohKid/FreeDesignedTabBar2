@@ -8,6 +8,8 @@
 
 #import "FreeDesignedTabBar2AppDelegate.h"
 
+#import "TabBarItemView.h"
+
 @implementation FreeDesignedTabBar2AppDelegate
 
 
@@ -19,6 +21,35 @@
 {
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
+
+    //self.tabBarController.delegate = self;
+
+    TabBarItemView *tabView0 = [[TabBarItemView alloc] initWithFrame:CGRectMake(0, 0, 160, 48)
+                                                       selectedImage:nil
+                                                     unselectedImage:nil];
+    tabView0.tag = 0;
+    tabView0.userInteractionEnabled = YES;
+    [tabView0 addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)]];
+    [self.tabBarController.tabBar addSubview:tabView0];
+
+    TabBarItemView *tabView1 = [[TabBarItemView alloc] initWithFrame:CGRectMake(160, 0, 160, 48)
+                                                       selectedImage:nil
+                                                     unselectedImage:nil];
+    tabView1.tag = 1;
+    tabView1.userInteractionEnabled = YES;
+    [tabView1 addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)]];
+    [self.tabBarController.tabBar addSubview:tabView1];
+
+    _tabViewItems = [[NSArray arrayWithObjects:
+                      tabView0,
+                      tabView1,
+                      nil] retain];
+
+    [tabView0 setSelected:YES];
+
+    [tabView0 release];
+    [tabView1 release];
+
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -65,15 +96,24 @@
 
 - (void)dealloc
 {
+    [_tabViewItems release], _tabViewItems = nil;
+
     [_window release];
     [_tabBarController release];
     [super dealloc];
 }
 
+#pragma mark - UITabBarControllerDelegate
 /*
 // Optional UITabBarControllerDelegate method.
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
+    switch (tabBarController.selectedIndex) {
+        case 1:
+            break;
+        default: //0
+            break;
+    }
 }
 */
 
@@ -83,5 +123,15 @@
 {
 }
 */
+
+#pragma mark - Touch handling
+
+- (void)handleTapGesture:(UITapGestureRecognizer *)sender
+{
+    for (TabBarItemView *tabView in _tabViewItems) {
+        [tabView setSelected:tabView.tag == sender.view.tag];
+    }
+    self.tabBarController.selectedIndex = sender.view.tag;
+}
 
 @end
