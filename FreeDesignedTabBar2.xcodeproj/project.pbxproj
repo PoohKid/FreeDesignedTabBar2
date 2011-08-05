@@ -20,6 +20,10 @@
 		05997CE613EAEB4E0054C112 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05997CE413EAEB4E0054C112 /* SecondView.xib */; };
 		05997D0113EB005F0054C112 /* TabBarItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05997D0013EB005E0054C112 /* TabBarItemView.m */; };
 		05997D0313EB07850054C112 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 05997D0213EB07850054C112 /* README.md */; };
+		845CB84E13EB81590010898E /* tab0s.png in Resources */ = {isa = PBXBuildFile; fileRef = 845CB84A13EB81590010898E /* tab0s.png */; };
+		845CB84F13EB81590010898E /* tab0u.png in Resources */ = {isa = PBXBuildFile; fileRef = 845CB84B13EB81590010898E /* tab0u.png */; };
+		845CB85013EB81590010898E /* tab1s.png in Resources */ = {isa = PBXBuildFile; fileRef = 845CB84C13EB81590010898E /* tab1s.png */; };
+		845CB85113EB81590010898E /* tab1u.png in Resources */ = {isa = PBXBuildFile; fileRef = 845CB84D13EB81590010898E /* tab1u.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		05997CFF13EB005E0054C112 /* TabBarItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItemView.h; sourceTree = "<group>"; };
 		05997D0013EB005E0054C112 /* TabBarItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItemView.m; sourceTree = "<group>"; };
 		05997D0213EB07850054C112 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		845CB84A13EB81590010898E /* tab0s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab0s.png; sourceTree = "<group>"; };
+		845CB84B13EB81590010898E /* tab0u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab0u.png; sourceTree = "<group>"; };
+		845CB84C13EB81590010898E /* tab1s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab1s.png; sourceTree = "<group>"; };
+		845CB84D13EB81590010898E /* tab1u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab1u.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,10 @@
 		05997CCC13EAEB4E0054C112 /* FreeDesignedTabBar2 */ = {
 			isa = PBXGroup;
 			children = (
+				845CB84A13EB81590010898E /* tab0s.png */,
+				845CB84B13EB81590010898E /* tab0u.png */,
+				845CB84C13EB81590010898E /* tab1s.png */,
+				845CB84D13EB81590010898E /* tab1u.png */,
 				05997CD513EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.h */,
 				05997CD613EAEB4E0054C112 /* FreeDesignedTabBar2AppDelegate.m */,
 				05997CD813EAEB4E0054C112 /* MainWindow.xib */,
@@ -169,6 +181,10 @@
 				05997CE313EAEB4E0054C112 /* FirstView.xib in Resources */,
 				05997CE613EAEB4E0054C112 /* SecondView.xib in Resources */,
 				05997D0313EB07850054C112 /* README.md in Resources */,
+				845CB84E13EB81590010898E /* tab0s.png in Resources */,
+				845CB84F13EB81590010898E /* tab0u.png in Resources */,
+				845CB85013EB81590010898E /* tab1s.png in Resources */,
+				845CB85113EB81590010898E /* tab1u.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				05997CEB13EAEB4E0054C112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

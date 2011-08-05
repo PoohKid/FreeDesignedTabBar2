@@ -25,16 +25,16 @@
     //self.tabBarController.delegate = self;
 
     TabBarItemView *tabView0 = [[TabBarItemView alloc] initWithFrame:CGRectMake(0, 0, 160, 48)
-                                                       selectedImage:nil
-                                                     unselectedImage:nil];
+                                                       selectedImage:[UIImage imageNamed:@"tab0s.png"]
+                                                     unselectedImage:[UIImage imageNamed:@"tab0u.png"]];
     tabView0.tag = 0;
     tabView0.userInteractionEnabled = YES;
     [tabView0 addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)]];
     [self.tabBarController.tabBar addSubview:tabView0];
 
     TabBarItemView *tabView1 = [[TabBarItemView alloc] initWithFrame:CGRectMake(160, 0, 160, 48)
-                                                       selectedImage:nil
-                                                     unselectedImage:nil];
+                                                       selectedImage:[UIImage imageNamed:@"tab1s.png"]
+                                                     unselectedImage:[UIImage imageNamed:@"tab1u.png"]];
     tabView1.tag = 1;
     tabView1.userInteractionEnabled = YES;
     [tabView1 addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)]];
@@ -108,12 +108,6 @@
 // Optional UITabBarControllerDelegate method.
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
-    switch (tabBarController.selectedIndex) {
-        case 1:
-            break;
-        default: //0
-            break;
-    }
 }
 */
 

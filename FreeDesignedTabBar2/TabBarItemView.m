@@ -25,8 +25,8 @@
 - (void)setSelected:(BOOL)selected
 {
     _isSelected = selected;
-    self.backgroundColor = _isSelected ? [UIColor redColor] : [UIColor yellowColor];
-    //self.image = _isSelected ? _selectedImage : _unselectedImage;
+    //self.backgroundColor = _isSelected ? [UIColor redColor] : [UIColor yellowColor]; //画像が無い場合の代用
+    self.image = _isSelected ? _selectedImage : _unselectedImage;
 }
 
 - (BOOL)isSelected
